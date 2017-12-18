@@ -1,0 +1,46 @@
+CUDA: True
+CBOW(
+  (embeddings): Embedding(10166, 300, padding_idx=9)
+  (linear1): Linear(in_features=2348, out_features=512)
+  (linear2): Linear(in_features=512, out_features=5515)
+)
+iter 0/30: avg train loss=4.2884, time=78.29s
+iter 1/30: avg train loss=3.4681, time=78.00s
+iter 2/30: avg train loss=3.1527, time=77.99s
+iter 2/30: train acc=0.3007  dev acc=0.2808
+iter 3/30: avg train loss=2.8799, time=78.02s
+iter 4/30: avg train loss=2.6232, time=78.02s
+iter 5/30: avg train loss=2.3722, time=78.00s
+iter 5/30: train acc=0.3823  dev acc=0.3059
+iter 6/30: avg train loss=2.1136, time=78.01s
+iter 7/30: avg train loss=1.8654, time=78.05s
+iter 8/30: avg train loss=1.6646, time=78.07s
+iter 8/30: train acc=0.5286  dev acc=0.3214
+iter 9/30: avg train loss=1.5069, time=78.10s
+iter 10/30: avg train loss=1.3968, time=78.10s
+iter 11/30: avg train loss=1.2851, time=78.12s
+iter 11/30: train acc=0.5985  dev acc=0.3184
+iter 12/30: avg train loss=1.2053, time=78.13s
+iter 13/30: avg train loss=1.1537, time=78.17s
+iter 14/30: avg train loss=1.0819, time=78.15s
+iter 14/30: train acc=0.6394  dev acc=0.3142
+iter 15/30: avg train loss=1.0215, time=78.14s
+iter 16/30: avg train loss=0.9844, time=78.13s
+iter 17/30: avg train loss=0.9326, time=78.13s
+iter 17/30: train acc=0.6939  dev acc=0.3181
+iter 18/30: avg train loss=0.8913, time=78.14s
+iter 19/30: avg train loss=0.8575, time=78.16s
+iter 20/30: avg train loss=0.8259, time=78.17s
+iter 20/30: train acc=0.7219  dev acc=0.3150
+iter 21/30: avg train loss=0.7987, time=78.17s
+iter 22/30: avg train loss=0.7637, time=78.16s
+iter 23/30: avg train loss=0.7303, time=78.15s
+iter 23/30: train acc=0.7571  dev acc=0.3156
+iter 24/30: avg train loss=0.7098, time=78.18s
+iter 25/30: avg train loss=0.6889, time=78.18s
+iter 26/30: avg train loss=0.6551, time=78.18s
+iter 26/30: train acc=0.7805  dev acc=0.3145
+iter 27/30: avg train loss=0.6347, time=78.19s
+iter 28/30: avg train loss=0.6216, time=78.18s
+iter 29/30: avg train loss=0.5935, time=78.21s
+iter 29/30: train acc=0.8099  dev acc=0.3088

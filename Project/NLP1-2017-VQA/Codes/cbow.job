@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -n 4
+#SBATCH -t 01:45:00
+#SBATCH -p gpu
+#SBATCH -o output/train_cbow%A.output
+#SBATCH -e output/train_cbow%A.error
+
+module load python/3.5.2
+module load cuda/8.0.44
+module load cudnn/8.0-v6.0
+
+python3 train_cbow.py

@@ -1,0 +1,9 @@
+ login: sdemo105
+ password: A7fVioAk
+
+File transfer using filezilla
+All dependencies in place
+
+submission: sbatch name.job
+
+status: squeue -u sdemo105
